@@ -87,22 +87,10 @@ Offline-friendly
 
 Project Structure
 
-study_assistant_rag/
-│
-├── app.py               # App router + view state
-├── pipeline.py          # End-to-end RAG orchestration
-├── rag.py               # Indexing + retrieval logic
-├── extract.py           # PDF/text extraction + cleaning
-│
-├── llm_prompts.py       # System + mode-specific prompts
-├── llm_runner.py        # Prompt execution + JSON parsing
-├── ollama_client.py     # Ollama client + safety wrappers
-│
-├── ui_form.py           # Input form (Index / Ask)
-├── ui_results.py        # Results, sources, export
-│
-├── outputs/             # Optional exports
-└── README.md
+## 📁 Project Structure
+
+![Folder Structure](screenshots/folder-structure.png)
+
 ------------------------------
 
 🚀 How to Run
