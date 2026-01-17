@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Streamlit
+.streamlit/
+
+# Chroma / vector DB
+chroma/
+*.sqlite3
+
+# Outputs
+outputs/
+
+# OS
+.DS_Store
