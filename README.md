@@ -39,19 +39,8 @@ Download readable summary as TXT
 
 This project intentionally keeps the architecture simple, explicit, and interview-friendly.
 
-PDF / Notes
-   ↓
-Text Extraction + Cleaning
-   ↓
-Chunking (fixed)
-   ↓
-Embeddings (MiniLM – sentence-transformers)
-   ↓
-Chroma Vector Store (local, persistent)
-   ↓
-Top-k Retrieval
-   ↓
-Ollama LLM (JSON-structured output)
+![Folder Structure](screenshots/Architecture.png)
+
 ------------------------------
 
 ⚠️ Important:
